@@ -7,14 +7,17 @@
     <title>Task-manager</title>
 </head>
 <body>
-    <form>
-        <h1>Task Manager</h1>
-        <div id="input-div">
-            <input type="text">
-            <input type="button" value="Submit">
-        </div>
-    </form>
-
+    <div id="container">
+        <form id="form-element">
+            <h1>Task Manager</h1>
+            <div id="input-div">
+                <input class="add-task" type="text" placeholder="e.g Bible study">
+                <input class="add-task-btn" type="button" value="Add">
+            </div>
+            <span class="screen"></span>
+            <div id="all-tasks"></div>
+        </form>
+    </div>
     <script src="index.js"></script>
 </body>
 </html>
